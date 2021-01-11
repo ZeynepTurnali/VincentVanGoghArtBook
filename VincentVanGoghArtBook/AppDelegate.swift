@@ -1,9 +1,6 @@
 //
 //  AppDelegate.swift
 //  VincentVanGoghArtBook
-//
-//  Created by testinium on 10.01.2021.
-//
 
 import UIKit
 

@@ -1,24 +1,1380 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17506" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="bAf-Bw-gGe">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17505"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
-        <!--View Controller-->
-        <scene sceneID="tne-QT-ifu">
+        <!--Vincent van Gogh-->
+        <scene sceneID="oA6-yy-PQw">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                <tableViewController id="U6w-5E-7Bt" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleAspectFit" alwaysBounceVertical="YES" dataMode="static" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="J7m-LJ-DIm">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <color key="backgroundColor" xcode11CocoaTouchSystemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <inset key="scrollIndicatorInsets" minX="0.0" minY="100" maxX="0.0" maxY="0.0"/>
+                        <color key="separatorColor" red="0.22344261409999999" green="0.39218434689999998" blue="0.52542197700000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <sections>
+                            <tableViewSection id="HCF-k1-edF">
+                                <cells>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" indentationWidth="10" rowHeight="25" id="fvp-QT-XrM">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="25"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="fvp-QT-XrM" id="0D4-cc-ITG">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="25"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="0.0" textLabel="ZiK-6O-8F5" detailTextLabel="qPy-58-hiJ" imageView="VIy-Qs-oVh" rowHeight="100" style="IBUITableViewCellStyleSubtitle" id="qEd-51-Eww">
+                                        <rect key="frame" x="0.0" y="53" width="414" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="qEd-51-Eww" id="xJh-yC-fSr">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="100"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Biography" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="ZiK-6O-8F5">
+                                                    <rect key="frame" x="99" y="30" width="77" height="19"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Learn about Vincent van Gogh's life" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qPy-58-hiJ">
+                                                    <rect key="frame" x="99" y="52" width="202.5" height="16"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanPS-ItalicMT" family="Times New Roman" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="vincent-van-gogh" id="VIy-Qs-oVh">
+                                                    <rect key="frame" x="20" y="18" width="64" height="64"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <segue destination="RoK-R6-lA2" kind="show" id="Pge-q3-YFa"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="X5a-L2-p8Y" detailTextLabel="MYb-mQ-qqz" imageView="xM4-8z-tfK" rowHeight="100" style="IBUITableViewCellStyleSubtitle" id="eJG-P1-vre">
+                                        <rect key="frame" x="0.0" y="153" width="414" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="eJG-P1-vre" id="mlW-Ds-8Fl">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="100"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Art &amp; Stories" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="X5a-L2-p8Y">
+                                                    <rect key="frame" x="99" y="30" width="98.5" height="19"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Search the Collection" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="MYb-mQ-qqz">
+                                                    <rect key="frame" x="99" y="52" width="121" height="16"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanPS-ItalicMT" family="Times New Roman" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="frame" id="xM4-8z-tfK">
+                                                    <rect key="frame" x="20" y="18" width="64" height="64"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <segue destination="wze-lA-H4b" kind="show" id="nWO-Xr-23k"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="blue" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="qQy-sf-qBr" detailTextLabel="YSG-He-IlS" imageView="8Tc-gy-cN8" rowHeight="100" style="IBUITableViewCellStyleSubtitle" id="ket-Cx-jan">
+                                        <rect key="frame" x="0.0" y="253" width="414" height="100"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ket-Cx-jan" id="F1y-Wp-ULt">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="100"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="More Information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="qQy-sf-qBr">
+                                                    <rect key="frame" x="99" y="30" width="132.5" height="19"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Museums, news and press" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="YSG-He-IlS">
+                                                    <rect key="frame" x="99" y="52" width="145" height="16"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanPS-ItalicMT" family="Times New Roman" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="information" id="8Tc-gy-cN8">
+                                                    <rect key="frame" x="20" y="18" width="64" height="64"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <segue destination="YD8-68-ggo" kind="show" id="ifC-a7-pgS"/>
+                                        </connections>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="U6w-5E-7Bt" id="WEU-A1-TJj"/>
+                            <outlet property="delegate" destination="U6w-5E-7Bt" id="xrj-dg-owU"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Vincent van Gogh" id="qJV-Tp-khk"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="RTY-e9-vbm" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="511.59420289855075" y="24.776785714285712"/>
+        </scene>
+        <!--Art & Stories-->
+        <scene sceneID="TpI-PA-WhM">
+            <objects>
+                <tableViewController id="cKV-RS-ibz" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="center" alwaysBounceVertical="YES" dataMode="static" style="plain" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="3e8-Yj-qE9">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.71363967660000005" green="0.79219859839999995" blue="0.63521665329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <edgeInsets key="layoutMargins" top="0.0" left="20" bottom="0.0" right="20"/>
+                        <color key="separatorColor" red="0.2822240889" green="0.5294427276" blue="0.52542144059999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="sectionIndexBackgroundColor" red="0.71363967660000005" green="0.79219859839999995" blue="0.63521665329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <sections>
+                            <tableViewSection id="mZx-jb-U2x">
+                                <cells>
+                                    <tableViewCell hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="none" indentationWidth="10" rowHeight="32" id="PZI-rw-kpK">
+                                        <rect key="frame" x="0.0" y="28" width="414" height="32"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="PZI-rw-kpK" id="3tc-1s-ATp">
+                                            <rect key="frame" x="0.0" y="0.0" width="414" height="32"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.71363967660000005" green="0.79219859839999995" blue="0.63521665329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <inset key="separatorInset" minX="0.0" minY="0.0" maxX="0.0" maxY="0.0"/>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="Qp0-vB-b3d" detailTextLabel="fGl-bI-tAX" imageView="Cbd-OV-MTS" rowHeight="90" style="IBUITableViewCellStyleSubtitle" id="SJs-8T-uCa">
+                                        <rect key="frame" x="0.0" y="60" width="414" height="90"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="SJs-8T-uCa" id="DkO-ll-fL1">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="90"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Shoes" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="Qp0-vB-b3d">
+                                                    <rect key="frame" x="144" y="25" width="42" height="19"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="1853 - 1890" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="fGl-bI-tAX">
+                                                    <rect key="frame" x="144" y="47" width="68" height="16"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanPS-ItalicMT" family="Times New Roman" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="shoes" id="Cbd-OV-MTS">
+                                                    <rect key="frame" x="20" y="0.0" width="109" height="90"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.71363967660000005" green="0.79219859839999995" blue="0.63521665329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
+                                        <connections>
+                                            <segue destination="CA2-DJ-Dv9" kind="show" id="HS4-JF-BRC"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="62U-Ju-Gtv" detailTextLabel="hSP-6J-FgV" imageView="NU7-7S-Wz3" rowHeight="86" style="IBUITableViewCellStyleSubtitle" id="ux1-HJ-oYY">
+                                        <rect key="frame" x="0.0" y="150" width="414" height="86"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="ux1-HJ-oYY" id="w0Q-Gn-taw">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="86"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="The Bedroom" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="62U-Ju-Gtv">
+                                                    <rect key="frame" x="144" y="23" width="99.5" height="19"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="1853 - 1890, Arles, October 1888" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="hSP-6J-FgV">
+                                                    <rect key="frame" x="144" y="45" width="188.5" height="16"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanPS-ItalicMT" family="Times New Roman" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="theBedroom" id="NU7-7S-Wz3">
+                                                    <rect key="frame" x="20" y="0.0" width="109" height="86"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.71363967660000005" green="0.79219859839999995" blue="0.63521665329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="WGl-Md-qAN" kind="show" id="YMb-yW-eEU"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="89S-69-iaK" detailTextLabel="w7g-cu-HKD" imageView="NgT-sI-OJq" rowHeight="86" style="IBUITableViewCellStyleSubtitle" id="RJw-WQ-CuU">
+                                        <rect key="frame" x="0.0" y="236" width="414" height="86"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="RJw-WQ-CuU" id="uwx-Qo-TyG">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="86"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Almond Blossom" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="89S-69-iaK">
+                                                    <rect key="frame" x="145" y="15" width="123.5" height="19"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text=" 1853 - 1890, Saint-Rémy-de-Provence, February 1890" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="w7g-cu-HKD">
+                                                    <rect key="frame" x="145" y="37" width="225" height="31.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanPS-ItalicMT" family="Times New Roman" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="almondBlossom" id="NgT-sI-OJq">
+                                                    <rect key="frame" x="20" y="0.0" width="110" height="86"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.71363967660000005" green="0.79219859839999995" blue="0.63521665329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="zyx-9X-NmL" kind="show" id="Gu4-Tt-fiE"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="zl3-Y2-Gbj" detailTextLabel="KeL-Ha-oKZ" imageView="RWo-KD-3Mx" rowHeight="133" style="IBUITableViewCellStyleSubtitle" id="71l-Qc-vov">
+                                        <rect key="frame" x="0.0" y="322" width="414" height="133"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="71l-Qc-vov" id="2AW-df-Fyt">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="133"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Self Portrait as a Painter" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="zl3-Y2-Gbj">
+                                                    <rect key="frame" x="145" y="39" width="180.5" height="19"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="1853 - 1890, Paris, December 1887-February 1888" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KeL-Ha-oKZ">
+                                                    <rect key="frame" x="145" y="61" width="206" height="31.5"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanPS-ItalicMT" family="Times New Roman" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="selfPortraitWithGreyFeltHat" id="RWo-KD-3Mx">
+                                                    <rect key="frame" x="20" y="0.0" width="110" height="133"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.71363967660000005" green="0.79219859839999995" blue="0.63521665329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="3s6-DI-Hxb" kind="show" id="hzY-d8-9ai"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="bIN-tl-ZAy" detailTextLabel="paS-hq-pSp" imageView="ecL-9n-64d" rowHeight="144" style="IBUITableViewCellStyleSubtitle" id="Lq6-3S-D7q">
+                                        <rect key="frame" x="0.0" y="455" width="414" height="144"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="Lq6-3S-D7q" id="wc8-jd-Laf">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="144"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="Sunflowers" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="bIN-tl-ZAy">
+                                                    <rect key="frame" x="145" y="52" width="81.5" height="19"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="1853 - 1890, Arles, January 1889" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="paS-hq-pSp">
+                                                    <rect key="frame" x="145" y="74" width="188.5" height="16"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanPS-ItalicMT" family="Times New Roman" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <imageView opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" image="sunflowers" id="ecL-9n-64d">
+                                                    <rect key="frame" x="20" y="0.0" width="110" height="144"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                </imageView>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.71363967660000005" green="0.79219859839999995" blue="0.63521665329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <connections>
+                                            <segue destination="klM-yL-Zu4" kind="show" id="fIm-La-EcV"/>
+                                        </connections>
+                                    </tableViewCell>
+                                    <tableViewCell hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="KDl-vn-ffe" detailTextLabel="eG6-sh-Cgh" rowHeight="144" style="IBUITableViewCellStyleSubtitle" id="VI4-qu-V8k">
+                                        <rect key="frame" x="0.0" y="599" width="414" height="144"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="VI4-qu-V8k" id="EUn-WW-nl2">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="144"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="KDl-vn-ffe">
+                                                    <rect key="frame" x="20" y="52" width="34" height="19"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="eG6-sh-Cgh">
+                                                    <rect key="frame" x="20" y="74" width="43" height="16"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanPS-ItalicMT" family="Times New Roman" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.71363967660000005" green="0.79219859839999995" blue="0.63521665329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                    <tableViewCell hidden="YES" clipsSubviews="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" selectionStyle="default" accessoryType="disclosureIndicator" indentationWidth="10" textLabel="dR4-tO-Hyr" detailTextLabel="LPh-Jr-9GX" rowHeight="144" style="IBUITableViewCellStyleSubtitle" id="t1E-5q-P1X">
+                                        <rect key="frame" x="0.0" y="743" width="414" height="144"/>
+                                        <autoresizingMask key="autoresizingMask"/>
+                                        <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="t1E-5q-P1X" id="Aa7-OD-L6W">
+                                            <rect key="frame" x="0.0" y="0.0" width="383" height="144"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                            <subviews>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="dR4-tO-Hyr">
+                                                    <rect key="frame" x="20" y="52" width="34" height="19"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                                <label opaque="NO" multipleTouchEnabled="YES" contentMode="left" insetsLayoutMarginsFromSafeArea="NO" text="" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" id="LPh-Jr-9GX">
+                                                    <rect key="frame" x="20" y="74" width="43" height="16"/>
+                                                    <autoresizingMask key="autoresizingMask"/>
+                                                    <fontDescription key="fontDescription" name="TimesNewRomanPS-ItalicMT" family="Times New Roman" pointSize="14"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                        </tableViewCellContentView>
+                                        <color key="backgroundColor" red="0.71363967660000005" green="0.79219859839999995" blue="0.63521665329999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    </tableViewCell>
+                                </cells>
+                            </tableViewSection>
+                        </sections>
+                        <connections>
+                            <outlet property="dataSource" destination="cKV-RS-ibz" id="CHo-6x-zbx"/>
+                            <outlet property="delegate" destination="cKV-RS-ibz" id="1Li-ct-HWL"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Art &amp; Stories" id="g6L-Vp-9pX">
+                        <barButtonItem key="backBarButtonItem" id="Ajf-uG-cR2"/>
+                    </navigationItem>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="DAj-Tp-d4S" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2339.130434782609" y="375.66964285714283"/>
+        </scene>
+        <!--Shoes-->
+        <scene sceneID="zDY-k5-LU7">
+            <objects>
+                <viewController id="CA2-DJ-Dv9" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="PrR-am-ytG">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="shoes" translatesAutoresizingMaskIntoConstraints="NO" id="Zj4-Th-Dmc">
+                                <rect key="frame" x="20" y="106" width="374" height="211"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="4Cs-Lc-q4r">
+                                <rect key="frame" x="20" y="337" width="374" height="539"/>
+                                <color key="backgroundColor" red="0.70583921670000005" green="0.62356221680000001" blue="0.4587706923" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Shoes">
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="20" name="TimesNewRomanPS-BoldMT"/>
+                                            <font key="NSOriginalFont" size="20" name="TimesNewRomanPS-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="20" name="TimesNewRomanPS-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPSMT"/>
+                                            <font key="NSOriginalFont" size="12" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Vincent van Gogh (1853 - 1890), Paris, September-November 1886
+
+oil on canvas, 38.1 cm x 45.3 cm</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="14" name="TimesNewRomanPSMT"/>
+                                            <font key="NSOriginalFont" size="14" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+
+Credits (obliged to state): Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)
+</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPSMT"/>
+                                            <font key="NSOriginalFont" size="11" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+Worn-out shoes were an unusual choice of subject for a painting. An acquaintance of Van Gogh's in Paris described how he bought old work shoes at a flea market. Then he walked through the mud in them until they were filthy. Only then did he feel they were interesting enough to paint. Van Gogh made a number of still lifes of this subject.
+
+He painted Shoes over another picture: a view from his brother Theo's apartment. Van Gogh used the same canvas more than once on other occasions too. It was a way of saving money.</string>
+                                        <attributes>
+                                            <color key="NSColor" name="textColor" catalog="System" colorSpace="catalog"/>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPSMT"/>
+                                            <font key="NSOriginalFont" size="11" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="kOb-Os-vGn"/>
+                        <color key="backgroundColor" red="0.70583921670000005" green="0.62356221680000001" blue="0.4587706923" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="bottom" secondItem="4Cs-Lc-q4r" secondAttribute="bottom" constant="20" id="9Fm-8g-0Nc"/>
+                            <constraint firstItem="kOb-Os-vGn" firstAttribute="trailing" secondItem="4Cs-Lc-q4r" secondAttribute="trailing" constant="20" id="GP2-yQ-Vlc"/>
+                            <constraint firstItem="4Cs-Lc-q4r" firstAttribute="top" secondItem="Zj4-Th-Dmc" secondAttribute="bottom" constant="20" id="OFP-dV-Ano"/>
+                            <constraint firstItem="Zj4-Th-Dmc" firstAttribute="trailing" secondItem="PrR-am-ytG" secondAttribute="trailingMargin" id="W0u-Si-L7M"/>
+                            <constraint firstItem="4Cs-Lc-q4r" firstAttribute="leading" secondItem="PrR-am-ytG" secondAttribute="leading" constant="20" id="XwM-Mc-qye"/>
+                            <constraint firstItem="kOb-Os-vGn" firstAttribute="bottom" secondItem="Zj4-Th-Dmc" secondAttribute="bottom" constant="545" id="qFA-lo-GxF"/>
+                            <constraint firstItem="Zj4-Th-Dmc" firstAttribute="leading" secondItem="PrR-am-ytG" secondAttribute="leadingMargin" id="vTk-eW-kyq"/>
+                            <constraint firstItem="Zj4-Th-Dmc" firstAttribute="top" secondItem="kOb-Os-vGn" secondAttribute="top" constant="18" id="yti-hp-fLg"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Shoes" id="r7C-px-7bV"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="3bw-cb-neJ" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3486.9565217391305" y="-811.60714285714278"/>
+        </scene>
+        <!--More Information-->
+        <scene sceneID="ZhS-fg-ftX">
+            <objects>
+                <viewController id="YD8-68-ggo" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3Xg-mG-S6s">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="DgK-8p-Wjd">
+                                <rect key="frame" x="20" y="108" width="374" height="477"/>
+                                <color key="backgroundColor" red="0.74893432859999998" green="0.81572890279999999" blue="0.63913828130000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.2822240889" green="0.5294427276" blue="0.52542144059999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Current-
+Upcoming Events</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="20" name="TimesNewRomanPS-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" paragraphSpacing="2" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" paragraphSpacing="2" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="natural" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">The documentary 'The Mystery of Van Gogh's Ear' will be shown throughout the day.
+
+'Van Gogh: His Year in Arles' at 5.30 pm.
+
+Entry is free. Contact : +334 90 49 39 39
+
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Enjoy the Museum 
+from Home</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="20" name="TimesNewRomanPS-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="2" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="2" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="https://www.vangoghmuseum.nl/en/visit/enjoy-the-museum-from-home">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPS-ItalicMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" phoneNumber="YES" link="YES" calendarEvent="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="0nD-pO-1Vk"/>
+                        <color key="backgroundColor" red="0.74893432859999998" green="0.81572890279999999" blue="0.63913828130000006" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="0nD-pO-1Vk" firstAttribute="trailing" secondItem="DgK-8p-Wjd" secondAttribute="trailing" constant="20" id="2gA-md-wAy"/>
+                            <constraint firstItem="DgK-8p-Wjd" firstAttribute="leading" secondItem="0nD-pO-1Vk" secondAttribute="leading" constant="20" id="5L7-au-Tuu"/>
+                            <constraint firstItem="DgK-8p-Wjd" firstAttribute="top" secondItem="0nD-pO-1Vk" secondAttribute="top" constant="20" id="D6T-VK-jSk"/>
+                            <constraint firstItem="0nD-pO-1Vk" firstAttribute="bottom" secondItem="DgK-8p-Wjd" secondAttribute="bottom" constant="277" id="aLS-pY-Uim"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="More Information" id="xtj-rT-JMZ"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XFl-Gk-Klg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="511.59420289855075" y="1023.8839285714286"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="WW7-vH-c5B">
+            <objects>
+                <navigationController id="wze-lA-H4b" sceneMemberID="viewController">
+                    <navigationItem key="navigationItem" id="baG-pG-L42"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="HC2-s2-WZA">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.1843137255" green="0.47534608839999998" blue="0.47253388169999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="20"/>
+                            <color key="textColor" red="0.75686274509999996" green="0.81960784310000001" blue="0.64313725489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="25"/>
+                            <color key="textColor" red="0.75686274509999996" green="0.81960784310000001" blue="0.64313725489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="cKV-RS-ibz" kind="relationship" relationship="rootViewController" id="7Nw-Rp-SlH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qn0-G9-e5z" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1449" y="376"/>
+        </scene>
+        <!--Biography-->
+        <scene sceneID="Sdl-Ee-nJW">
+            <objects>
+                <viewController id="RoK-R6-lA2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xY7-dZ-LiC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="selfPortraitasaPainter" translatesAutoresizingMaskIntoConstraints="NO" id="afS-76-wNa">
+                                <rect key="frame" x="20" y="108" width="374" height="150"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="150" id="FRE-no-LrF"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="M3T-N2-iFV">
+                                <rect key="frame" x="20" y="306" width="374" height="562"/>
+                                <color key="backgroundColor" red="0.67052501440000001" green="0.68239086869999999" blue="0.63129580019999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">From Etten to The Hague
+</string>
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor"/>
+                                            <font key="NSFont" size="20" name="TimesNewRomanPS-BoldMT"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+In the spring of 1881, Vincent moved back in with his parents, who were now living in Etten, also in Brabant. He practised drawing and frequently worked out of doors. In the meantime, his brother Theo had been appointed manager of Goupil &amp; Cie in Paris. He supported Vincent financially so he could focus entirely on his art.
+
+Vincents parents, by contrast, were extremely disappointed that their eldest son had chosen the life of an artist, which in their eyes was synonymous with social failure. It did not help that Vincent had fallen in love with his cousin, Kee Vos. Kee was a widow and wanted nothing to do with him, but Van Gogh persisted. This did not go down well with his family and, following a row with his father, Vincent walked out of his parents’ house on Christmas Day 1881. He found a new home in The Hague.
+
+</string>
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor"/>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPSMT"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">'Pa cannot empathize or sympathize with me, and I cannot settle in to Pa and Ma’s routine, it’s too constricting for me — it would suffocate me.'</string>
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor"/>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPS-ItalicMT"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cgo
+</string>
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor"/>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPSMT"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Vincent to Theo, Etten, on or about 23 December 1881">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor"/>
+                                            <font key="NSFont" size="14" name="TimesNewRomanPSMT"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cgo
+</string>
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor"/>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPSMT"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Mauve
+</string>
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor"/>
+                                            <font key="NSFont" size="20" name="TimesNewRomanPS-BoldMT"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+Vincent took painting lessons in The Hague from a cousin by marriage, the celebrated artist Anton Mauve. Van Gogh felt his drawing technique was not yet good enough, so he also continued to practise fanatically. An uncle gave him his first commission: twelve drawings of city views in The Hague. The series gave him the opportunity to develop his perspective skills. Mauve taught Vincent the basics of painting in watercolour and oils and Van Gogh visited his studio almost every day.
+
+</string>
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor"/>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPSMT"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Painful affair
+</string>
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor"/>
+                                            <font key="NSFont" size="20" name="TimesNewRomanPS-BoldMT"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+Vincent met Sien Hoornik in early 1882. She became both his model and his lover. Vincent’s friends and family (including Mauve) were shocked, as Sien was a former prostitute. What’s more, she was pregnant and already had a five-year-old daughter. Vincent felt sorry for Sien, though, and was determined to take care of her. They rented a studio in which she, the little girl and the new baby could all live as well. Theo did not approve of Vincent’s choice, but continued to support him financially. Vincent remained stubborn, but eventually realized that his relationship with Sien was not working out the way he hoped, so he broke it off.
+
+</string>
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor"/>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPSMT"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">'I knew from the outset that her character is a ruined character, but I had hopes of her finding her feet and now, precisely when I don’t see her any more and think about the things I saw in her, I increasingly come to realize that she was already too far gone to find her feet.'</string>
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor"/>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPS-ItalicMT"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cgo
+</string>
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor"/>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPSMT"/>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="Vincent to Theo, Hoogeveen, around 14 September 1883">
+                                        <attributes>
+                                            <color key="NSColor" systemColor="labelColor"/>
+                                            <font key="NSFont" size="14" name="TimesNewRomanPSMT"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits"/>
+                            </textView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="5" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Z6w-cX-bBL">
+                                <rect key="frame" x="20" y="259" width="374" height="39"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="39" id="96B-zi-Fv8"/>
+                                </constraints>
+                                <attributedString key="attributedText">
+                                    <fragment>
+                                        <string key="content">Self-Portrait as a Painter
+Vincent van Gogh (1853 - 1890), Paris, December 1887-February 1888</string>
+                                        <attributes>
+                                            <font key="NSFont" size="13" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="center" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="3cX-k6-by7"/>
+                        <color key="backgroundColor" red="0.67052501440000001" green="0.68239086869999999" blue="0.63129580019999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Z6w-cX-bBL" firstAttribute="trailing" secondItem="M3T-N2-iFV" secondAttribute="trailing" id="5Ak-HF-vEQ"/>
+                            <constraint firstItem="afS-76-wNa" firstAttribute="trailing" secondItem="xY7-dZ-LiC" secondAttribute="trailingMargin" id="FtK-1k-mAL"/>
+                            <constraint firstAttribute="bottomMargin" secondItem="M3T-N2-iFV" secondAttribute="bottom" constant="-6" id="Swg-dQ-Zvd"/>
+                            <constraint firstItem="Z6w-cX-bBL" firstAttribute="leading" secondItem="M3T-N2-iFV" secondAttribute="leading" id="V4C-jL-G2H"/>
+                            <constraint firstItem="afS-76-wNa" firstAttribute="trailing" secondItem="Z6w-cX-bBL" secondAttribute="trailing" id="Vlc-ke-7bF"/>
+                            <constraint firstItem="afS-76-wNa" firstAttribute="leading" secondItem="xY7-dZ-LiC" secondAttribute="leadingMargin" id="XQh-xg-6xi"/>
+                            <constraint firstItem="Z6w-cX-bBL" firstAttribute="top" secondItem="afS-76-wNa" secondAttribute="bottom" constant="1" id="Yib-5e-lqf"/>
+                            <constraint firstItem="afS-76-wNa" firstAttribute="leading" secondItem="Z6w-cX-bBL" secondAttribute="leading" id="iaj-0A-xg2"/>
+                            <constraint firstItem="M3T-N2-iFV" firstAttribute="top" secondItem="Z6w-cX-bBL" secondAttribute="bottom" constant="8" symbolic="YES" id="mZr-HF-Uym"/>
+                            <constraint firstItem="afS-76-wNa" firstAttribute="top" secondItem="3cX-k6-by7" secondAttribute="top" constant="20" id="rfZ-95-gqp"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Biography" id="k4E-RT-gfm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="xhu-jn-X33" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1405.7971014492755" y="-633.48214285714278"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="Eij-0N-U3M">
+            <objects>
+                <navigationController id="bAf-Bw-gGe" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="V0d-6A-kAf">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="0.1843137255" green="0.47450980390000003" blue="0.47058823529999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="20"/>
+                            <color key="textColor" red="0.75686274509999996" green="0.81960784310000001" blue="0.64313725489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                        <textAttributes key="largeTitleTextAttributes">
+                            <fontDescription key="fontDescription" name="TimesNewRomanPS-BoldMT" family="Times New Roman" pointSize="25"/>
+                            <color key="textColor" red="0.75686274509999996" green="0.81960784310000001" blue="0.64313725489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="U6w-5E-7Bt" kind="relationship" relationship="rootViewController" id="1Co-St-uyY"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="EBI-qw-QJi" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-378" y="25"/>
+        </scene>
+        <!--The Bedroom-->
+        <scene sceneID="LPo-AE-e5a">
+            <objects>
+                <viewController id="WGl-Md-qAN" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="A7X-zW-Emd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="theBedroom" translatesAutoresizingMaskIntoConstraints="NO" id="sNv-Pl-SVF">
+                                <rect key="frame" x="20" y="108" width="374" height="225"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="AGm-kN-lY2">
+                                <rect key="frame" x="20" y="353" width="374" height="489"/>
+                                <color key="backgroundColor" red="0.58421689269999999" green="0.72945576909999998" blue="0.82342761750000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.2822240889" green="0.5294427276" blue="0.52542144059999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="The Bedroom">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="20" name="TimesNewRomanPS-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cgo
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="13" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Vincent van Gogh (1853 - 1890), Arles, October 1888
+
+oil on canvas, 72.4 cm x 91.3 cm
+
+Credits (obliged to state): Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" metaFont="system" size="14"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="13" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+While he was in Arles, Van Gogh made this painting of his bedroom in the Yellow House. He prepared the room himself with simple furniture and with his own work on the wall. The bright colours were meant to express absolute ‘repose’ or ‘sleep’. Research shows that the strongly contrasting colours we see in the work today are the result of discolouration over the years. The walls and doors, for instance, were originally purple rather than blue. The apparently odd angle of the rear wall, meanwhile, is not a mistake on Van Gogh’s part – the corner really was skewed. The rules of perspective seem not to have been accurately applied throughout the painting, but this was a deliberate choice. Vincent told Theo in </string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="a letter">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPSMT"/>
+                                            <url key="NSLink" string="http://www.vangoghletters.org/vg/letters/let741/letter.html"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content"> that he had deliberately ‘flattened’ the interior and left out the shadows so that his picture would resemble a Japanese print. 
+</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">You can read letters from there: 
+
+http://www.vangoghletters.org/vg/letters/let741/letter.html</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPS-ItalicMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+
+Van Gogh was very pleased with the painting: ‘When I saw my canvases again after my illness, what seemed to me the best was the bedroom.’</string>
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="cpa-g4-66E"/>
+                        <color key="backgroundColor" red="0.58431372549019611" green="0.72941176470588232" blue="0.82352941176470584" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="AGm-kN-lY2" firstAttribute="leading" secondItem="cpa-g4-66E" secondAttribute="leading" constant="20" id="1UY-qd-3PR"/>
+                            <constraint firstItem="AGm-kN-lY2" firstAttribute="top" secondItem="sNv-Pl-SVF" secondAttribute="bottom" constant="20" id="AhX-ct-Z7M"/>
+                            <constraint firstItem="cpa-g4-66E" firstAttribute="bottom" secondItem="AGm-kN-lY2" secondAttribute="bottom" constant="20" id="NNg-Pv-rFT"/>
+                            <constraint firstItem="sNv-Pl-SVF" firstAttribute="leading" secondItem="cpa-g4-66E" secondAttribute="leading" constant="20" id="Opf-3A-c5h"/>
+                            <constraint firstItem="cpa-g4-66E" firstAttribute="trailing" secondItem="sNv-Pl-SVF" secondAttribute="trailing" constant="20" id="TBI-NC-Vyd"/>
+                            <constraint firstItem="cpa-g4-66E" firstAttribute="bottom" secondItem="sNv-Pl-SVF" secondAttribute="bottom" constant="529" id="lNG-Oe-6DM"/>
+                            <constraint firstItem="sNv-Pl-SVF" firstAttribute="top" secondItem="cpa-g4-66E" secondAttribute="top" constant="20" id="zWM-Gk-nQI"/>
+                            <constraint firstItem="cpa-g4-66E" firstAttribute="trailing" secondItem="AGm-kN-lY2" secondAttribute="trailing" constant="20" id="zcj-sA-vF2"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="The Bedroom" id="zix-4o-Pim"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="slF-ZO-b5B" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4405.7971014492759" y="-210.26785714285714"/>
+        </scene>
+        <!--Almond Blossom-->
+        <scene sceneID="HUQ-FL-or5">
+            <objects>
+                <viewController id="zyx-9X-NmL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="lHk-E1-4e0">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="almondBlossom" translatesAutoresizingMaskIntoConstraints="NO" id="GQT-mu-H9v">
+                                <rect key="frame" x="20" y="108" width="374" height="223"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="GYJ-so-U4f">
+                                <rect key="frame" x="20" y="351" width="374" height="491"/>
+                                <color key="backgroundColor" red="0.65876430269999997" green="0.65885871650000005" blue="0.52934783699999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Almond Blossom">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="TimesNewRomanPS-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="2" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="2" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Vincent van Gogh (1853 - 1890), Saint-Rémy-de-Provence, February 1890
+
+oil on canvas, 73.3 cm x 92.4 cm
+Credits (obliged to state): Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+
+Large blossom branches like this against a blue sky were one of Van Gogh’s favourite subjects. Almond trees flower early in the spring making them a symbol of new life. Van Gogh borrowed the subject, the bold outlines and the positioning of the tree in the picture plane from Japanese printmaking.  The painting was a gift for his brother Theo and sister-in-law Jo, who had just had a baby son, Vincent Willem. </string>
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="In ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="the letter">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPSMT"/>
+                                            <url key="NSLink" string="http://www.vangoghletters.org/vg/letters/let847/letter.html"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=" ">
+                                        <attributes>
+                                            <color key="NSColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">announcing the new arrival, Theo wrote: ‘As we told you, we’ll name him after you, and I’m making the wish that he may be as determined and as courageous as you.’ Unsurprisingly, it was this work that remained closest to the hearts of the Van Gogh family. Vincent Willem went on to found the Van Gogh Museum.</string>
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="ANb-iU-4Tf"/>
+                        <color key="backgroundColor" red="0.65876430269999997" green="0.65885871650000005" blue="0.52934783699999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="ANb-iU-4Tf" firstAttribute="bottom" secondItem="GYJ-so-U4f" secondAttribute="bottom" constant="20" id="51E-wh-6Cf"/>
+                            <constraint firstItem="ANb-iU-4Tf" firstAttribute="bottom" secondItem="GQT-mu-H9v" secondAttribute="bottom" constant="531" id="7YW-cm-Nqd"/>
+                            <constraint firstItem="GYJ-so-U4f" firstAttribute="leading" secondItem="ANb-iU-4Tf" secondAttribute="leading" constant="20" id="JFH-H6-P8a"/>
+                            <constraint firstItem="GYJ-so-U4f" firstAttribute="top" secondItem="GQT-mu-H9v" secondAttribute="bottom" constant="20" id="NXH-9I-2Yo"/>
+                            <constraint firstAttribute="trailing" secondItem="GQT-mu-H9v" secondAttribute="trailing" constant="20" id="ek7-A8-S5d"/>
+                            <constraint firstItem="GQT-mu-H9v" firstAttribute="top" secondItem="ANb-iU-4Tf" secondAttribute="top" constant="20" id="fUq-YG-D4m"/>
+                            <constraint firstItem="ANb-iU-4Tf" firstAttribute="trailing" secondItem="GYJ-so-U4f" secondAttribute="trailing" constant="20" id="nnA-Zh-Iwj"/>
+                            <constraint firstItem="GQT-mu-H9v" firstAttribute="leading" secondItem="lHk-E1-4e0" secondAttribute="leading" constant="20" id="plp-DB-SiD"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Almond Blossom" id="8H8-t1-Gft"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="jwH-6S-uHS" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5460.8695652173919" y="403.79464285714283"/>
+        </scene>
+        <!--Self Portrait as a Painter-->
+        <scene sceneID="w20-mh-piN">
+            <objects>
+                <viewController id="3s6-DI-Hxb" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Qfx-ce-eBd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="selfPortraitWithGreyFeltHat" translatesAutoresizingMaskIntoConstraints="NO" id="1mN-Gt-ipU">
+                                <rect key="frame" x="20" y="108" width="374" height="267"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="SYH-Xg-zzi">
+                                <rect key="frame" x="20" y="395" width="374" height="447"/>
+                                <color key="backgroundColor" red="0.69797164199999995" green="0.71768683200000005" blue="0.66658574339999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Self-Portrait with Grey Felt Hat">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="TimesNewRomanPS-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="2" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cgo
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="2" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Vincent van Gogh (1853 - 1890), Paris, September-October 1887
+oil on cotton, 44.5 cm x 37.2 cm
+Credits (obliged to state): Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cgo
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="11" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Van Gogh painted this self-portrait in the winter of 1887–88, when he had been in Paris for almost two years. It is clear from the work that he had studied the technique of the Pointillists and applied it in his own, original way. He placed the short stripes of paint in different directions. Where they follow the outline of his head, they form a kind of halo.  The painting is also one of Van Gogh’s boldest colour experiments in Paris. He placed complementary colours alongside one another using long brushstrokes: blue and orange in the background, and red and green in the beard and eyes. The colours intensify one another. The red pigment has faded, so the purple strokes are now blue, which means the contrast with the yellow is less powerful.</string>
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="FLg-9Z-TP1"/>
+                        <color key="backgroundColor" red="0.71758210659999999" green="0.72160857919999999" blue="0.66658616069999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="FLg-9Z-TP1" firstAttribute="bottom" secondItem="SYH-Xg-zzi" secondAttribute="bottom" constant="20" id="2R9-6a-4ij"/>
+                            <constraint firstItem="SYH-Xg-zzi" firstAttribute="top" secondItem="1mN-Gt-ipU" secondAttribute="bottom" constant="20" id="7kd-sg-qyS"/>
+                            <constraint firstItem="1mN-Gt-ipU" firstAttribute="leading" secondItem="FLg-9Z-TP1" secondAttribute="leading" constant="20" id="8ez-Qd-gat"/>
+                            <constraint firstItem="FLg-9Z-TP1" firstAttribute="trailing" secondItem="1mN-Gt-ipU" secondAttribute="trailing" constant="20" id="R2r-XA-YuF"/>
+                            <constraint firstItem="1mN-Gt-ipU" firstAttribute="top" secondItem="FLg-9Z-TP1" secondAttribute="top" constant="20" id="eHE-yN-H3L"/>
+                            <constraint firstItem="FLg-9Z-TP1" firstAttribute="trailing" secondItem="SYH-Xg-zzi" secondAttribute="trailing" constant="20" id="jSU-TK-dHr"/>
+                            <constraint firstItem="FLg-9Z-TP1" firstAttribute="bottom" secondItem="1mN-Gt-ipU" secondAttribute="bottom" constant="487" id="maS-g5-XL2"/>
+                            <constraint firstItem="SYH-Xg-zzi" firstAttribute="leading" secondItem="FLg-9Z-TP1" secondAttribute="leading" constant="20" id="zot-00-Hee"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Self Portrait as a Painter" id="7Km-7h-Qsn"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="pai-v7-nRg" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4405.7971014492759" y="1409.5982142857142"/>
+        </scene>
+        <!--Sunflowers-->
+        <scene sceneID="eiO-u0-CuF">
+            <objects>
+                <viewController id="klM-yL-Zu4" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="UDg-Zl-zZc">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="sunflowers" translatesAutoresizingMaskIntoConstraints="NO" id="H7r-Kd-Gcp">
+                                <rect key="frame" x="20" y="108" width="374" height="275"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" editable="NO" usesAttributedText="YES" translatesAutoresizingMaskIntoConstraints="NO" id="gPq-nl-X5c">
+                                <rect key="frame" x="20" y="403" width="374" height="439"/>
+                                <color key="backgroundColor" red="0.83915024999999999" green="0.80395966770000005" blue="0.56783744810000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="tintColor" red="0.2822240889" green="0.5294427276" blue="0.52542144059999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <attributedString key="attributedText">
+                                    <fragment content="Sunflowers">
+                                        <attributes>
+                                            <font key="NSFont" size="20" name="TimesNewRomanPS-BoldMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="2" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" paragraphSpacing="2" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content" base64-UTF8="YES">
+Cg
+</string>
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">Vincent van Gogh (1853 - 1890), Arles, January 1889
+
+oil on canvas, 95 cm x 73 cm
+Credits (obliged to state): Van Gogh Museum, Amsterdam (Vincent van Gogh Foundation)</string>
+                                        <attributes>
+                                            <font key="NSFont" size="14" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <mutableString key="content">
+
+Van Gogh’s paintings of Sunflowers are among his most famous. He did them in Arles, in the south of France, in 1888 and 1889. Vincent painted a total of five large canvases with sunflowers in a vase, with three shades of yellow ‘and nothing else’. In this way, he demonstrated that it was possible to create an image with numerous variations of a single colour, without any loss of eloquence.  The sunflower paintings had a sp</mutableString>
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="ecial significance for Van Gogh: they communicated ‘gratitude’, ">
+                                        <attributes>
+                                            <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="he wrote">
+                                        <attributes>
+                                            <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPSMT"/>
+                                            <url key="NSLink" string="http://www.vangoghletters.org/vg/letters/let740/letter.html"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content=". ">
+                                        <attributes>
+                                            <color key="NSColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <string key="content">
+
+Letters: </string>
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment content="http://www.vangoghletters.org/vg/letters/let740/letter.html">
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPS-ItalicMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                    <fragment>
+                                        <mutableString key="content">
+
+He hung the first two in the room of his friend, the painter Paul Gauguin, who came to live with him for a while in the Yellow House. Gauguin was impressed by the sunflowers, which he thought were ‘completely Vincent’. Van Gogh had already painted a new version during his friend’s stay and Gauguin later asked for one as a gift, which Vincent was reluctant to give him. He later produced two loose copies, however, one of which is now in the Van Gogh Museum.</mutableString>
+                                        <attributes>
+                                            <font key="NSFont" size="17" name="TimesNewRomanPSMT"/>
+                                            <paragraphStyle key="NSParagraphStyle" alignment="left" lineBreakMode="wordWrapping" baseWritingDirection="leftToRight" lineSpacing="1" defaultTabInterval="28" tighteningFactorForTruncation="0.0" allowsDefaultTighteningForTruncation="NO">
+                                                <tabStops/>
+                                            </paragraphStyle>
+                                        </attributes>
+                                    </fragment>
+                                </attributedString>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <dataDetectorType key="dataDetectorTypes" link="YES"/>
+                            </textView>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="zEn-RZ-vyf"/>
+                        <color key="backgroundColor" red="0.83915024999999999" green="0.80395966770000005" blue="0.56783744814383563" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="zEn-RZ-vyf" firstAttribute="trailing" secondItem="gPq-nl-X5c" secondAttribute="trailing" constant="20" id="47e-xn-Sgi"/>
+                            <constraint firstItem="zEn-RZ-vyf" firstAttribute="bottom" secondItem="gPq-nl-X5c" secondAttribute="bottom" constant="20" id="5t6-O6-Q0K"/>
+                            <constraint firstItem="gPq-nl-X5c" firstAttribute="top" secondItem="H7r-Kd-Gcp" secondAttribute="bottom" constant="20" id="DGK-Wv-WK1"/>
+                            <constraint firstItem="H7r-Kd-Gcp" firstAttribute="top" secondItem="zEn-RZ-vyf" secondAttribute="top" constant="20" id="Pmm-qm-7w5"/>
+                            <constraint firstItem="gPq-nl-X5c" firstAttribute="leading" secondItem="zEn-RZ-vyf" secondAttribute="leading" constant="20" id="bxm-6S-WPA"/>
+                            <constraint firstItem="H7r-Kd-Gcp" firstAttribute="leading" secondItem="zEn-RZ-vyf" secondAttribute="leading" constant="20" id="gde-OH-qoU"/>
+                            <constraint firstItem="zEn-RZ-vyf" firstAttribute="bottom" secondItem="H7r-Kd-Gcp" secondAttribute="bottom" constant="479" id="qHK-m0-yWr"/>
+                            <constraint firstItem="zEn-RZ-vyf" firstAttribute="trailing" secondItem="H7r-Kd-Gcp" secondAttribute="trailing" constant="20" id="uuA-YQ-AuC"/>
+                        </constraints>
+                    </view>
+                    <navigationItem key="navigationItem" title="Sunflowers" id="PJg-gi-Ejm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="GdU-ve-Foo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3318.840579710145" y="1885.7142857142856"/>
         </scene>
     </scenes>
+    <color key="tintColor" red="0.75686274509999996" green="0.81960784310000001" blue="0.64313725489999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+    <resources>
+        <image name="almondBlossom" width="800" height="631"/>
+        <image name="frame" width="64" height="64"/>
+        <image name="information" width="64" height="64"/>
+        <image name="selfPortraitWithGreyFeltHat" width="659" height="800"/>
+        <image name="selfPortraitasaPainter" width="600" height="790"/>
+        <image name="shoes" width="800" height="665"/>
+        <image name="sunflowers" width="609" height="800"/>
+        <image name="theBedroom" width="800" height="634"/>
+        <image name="vincent-van-gogh" width="64" height="64"/>
+        <systemColor name="labelColor">
+            <color white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
 </document>
